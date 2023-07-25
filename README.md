@@ -28,15 +28,15 @@ The main objectives of this real estate investment analysis were as follows:
 * Replace the website_racenet and website_ladbrokes variables with the links to the race pages you want to scrape data from.
 * Execute the script in your preferred Python environment.
 
-##Script Overview:
+## Script Overview:
 
-*The script uses the Selenium library to automate web browsing and data extraction.
-*It starts by opening the Chrome web browser using the provided ChromeDriver path and navigates to the website_racenet.
-*It scrapes various race details, including field conditions, horse names, and horse information like career stats, win rate, and more.
-*After collecting the horse information from the first website, the script navigates to the website_ladbrokes.
-*It then clicks on the "Bet Tracker" element to access the betting data for each horse.
-*The script collects the horse names and corresponding betting data (pound_sign and dollar_sign).
-*The data is merged into a single DataFrame (final_df), which includes all the information scraped from both websites.
+* The script uses the Selenium library to automate web browsing and data extraction.
+* It starts by opening the Chrome web browser using the provided ChromeDriver path and navigates to the website_racenet.
+* It scrapes various race details, including field conditions, horse names, and horse information like career stats, win rate, and more.
+* After collecting the horse information from the first website, the script navigates to the website_ladbrokes.
+* It then clicks on the "Bet Tracker" element to access the betting data for each horse.
+* The script collects the horse names and corresponding betting data (pound_sign and dollar_sign).
+* The data is merged into a single DataFrame (final_df), which includes all the information scraped from both websites.
 
 
 ## Permission:
