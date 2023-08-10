@@ -36,7 +36,8 @@ The main objectives of this real estate investment analysis were as follows:
 * After collecting the horse information from the first website, the script navigates to the website_ladbrokes.
 * It then clicks on the "Bet Tracker" element to access the betting data for each horse.
 * The script collects the horse names and corresponding betting data (pound_sign and dollar_sign).
-* The data is merged into a single DataFrame (final_df), which includes all the information scraped from both websites.
+* Then it gathers and cleans all the data (race date in weeks,position and lengths behind the winner) of each horse's recent three races excluding the trail races.
+* All the data is merged into a single DataFrame (final_df), which includes all the information scraped from both websites.
 
 
 ## Permission:
