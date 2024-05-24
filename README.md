@@ -23,15 +23,13 @@ The main objectives of this real estate investment analysis were as follows:
 
 * Install the required libraries if you haven't already:
 * Copy code
-* pip install selenium pandas
-* Download the appropriate ChromeDriver for your Chrome browser version and provide the file directory for path.
+* pip install selenium, pandas
 * Replace the website_racenet and website_ladbrokes variables with the links to the race pages you want to scrape data from.
 * Execute the script in your preferred Python environment.
 
 ## Script Overview:
 
 * The script uses the Selenium library to automate web browsing and data extraction.
-* It starts by opening the Chrome web browser using the provided ChromeDriver path and navigates to the website_racenet.
 * It scrapes various race details, including field conditions, horse names, and horse information like career stats, win rate, and more.
 * After collecting the horse information from the first website, the script navigates to the website_ladbrokes.
 * It then clicks on the "Bet Tracker" element to access the betting data for each horse.
